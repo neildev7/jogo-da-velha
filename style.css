@@ -1,0 +1,159 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fundo */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: white;
+}
+
+/* Título */
+#title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Tabuleiro */
+#game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Células */
+.cell {
+    width: 100px;
+    height: 100px;
+    background: white;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.cell:hover {
+    background: #f1c40f;
+    transform: scale(1.05);
+}
+
+.cell.X {
+    color: #ff0000; /* vermelho para X */
+}
+
+.cell.O {
+    color: #001aff; /* azul para O */
+}
+
+.cell {
+    transition: transform 0.2s, background 0.2s, color 0.3s;
+}
+
+
+/* Botão reset */
+#reset {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#reset:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+
+#vencedor {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #f1f1f1, #ddd);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+#vencedor:hover {
+    background: linear-gradient(135deg, #ddd, #f1f1f1);
+    transform: scale(1.02);
+}
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    background: #222;
+    color: #eee;
+    border-radius: 10px 10px 0 0;
+    font-size: 0.9rem;
+    box-shadow: 0 -3px 6px rgba(0,0,0,0.3);
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #81C784;
+}
+
+/* Placar */
+#pontos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+    font-size: 1.5em;
+}
+
+#pontos p {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+#pontos p:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#pontos #pontosx {
+    color: #ff0000; /* vermelho para X */   
+}
+
+#pontos #pontoso {
+    color: #001aff; /* azul para O */
+}
+
+

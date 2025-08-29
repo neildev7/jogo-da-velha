@@ -34,18 +34,11 @@ Este é um **Jogo da Velha** interativo com algumas funcionalidades extras:
 
 ---
 
-## Visual do Jogo
-
-![Exemplo do Jogo](link-para-gif-ou-print)  
-
-> Dica: você pode gerar um GIF usando o **ScreenToGif** ou capturar um print animado do jogo.
-
----
 
 ## Acesso Online
 
 Você também pode jogar online através do **GitHub Pages**:  
-[https://seu-usuario.github.io/jogo-da-velha/](https://seu-usuario.github.io/jogo-da-velha/)
+[https://neildev7.github.io/jogo-da-velha/](https://seu-usuario.github.io/jogo-da-velha/)
 
 ---
 

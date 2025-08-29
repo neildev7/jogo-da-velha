@@ -34,18 +34,12 @@ Este é um **Jogo da Velha** interativo com algumas funcionalidades extras:
 
 ---
 
-
-## Acesso Online
-
-Você também pode jogar online através do **GitHub Pages**:  
-[https://neildev7.github.io/jogo-da-velha/](https://seu-usuario.github.io/jogo-da-velha/)
-
 ---
 
 ## Contato
 
 - GitHub: [neildev7](https://github.com/neildev7)  
-- E-mail: (seu-email@exemplo.com)
+- E-mail: (neillopes237@gmail.com)
 
 ---
 
